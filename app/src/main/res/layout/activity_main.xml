@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1"
+            android:paddingTop="10dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="100dp"
+                android:layout_height="200dp"
+                android:layout_gravity="left"
+                android:src="@drawable/friendsource"/>
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Username"
+                    android:textColor="#2A5AE1"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    />
+
+                <EditText
+                    android:id="@+id/etUsr"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#FFD904"
+                    android:backgroundTint="#2A5AE1"
+                    android:layout_marginLeft="20dp"
+                    android:textColorHint="#FFD904"
+                    android:hint="Username : admin"/>
+            </TableRow>
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Password"
+                    android:textColor="#2A5AE1"
+                    android:textSize="20dp"
+                    android:textStyle="bold"    />
+                <EditText
+                    android:id="@+id/etPw"
+                    android:inputType="textPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="#FFD904"
+                    android:hint="password :1234"
+                    android:textColor="#FFD904"
+                    android:backgroundTint="#2A5AE1"
+                    android:layout_marginLeft="20dp" />
+            </TableRow>
+        </TableLayout>
+        <Button
+            android:text="Login"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2A5AE1"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:id="@+id/btnlogin"
+            />
+        <Button
+            android:text="Register"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2A5AE1"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:id="@+id/btnRegister"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+
+
+

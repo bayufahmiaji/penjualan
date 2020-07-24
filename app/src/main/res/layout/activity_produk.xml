@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List Produk"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:textColor="#2A5AE1"
+        android:textStyle="bold"  />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFD904"
+        android:layout_marginTop="15dp">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1"
+            android:paddingTop="10dp">
+
+
+            <TableRow>
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/findx"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="> Oppo find X
+                                    \n \n > ASUS \n\n > Harga : Rp.12,000,000
+                                   \n\n > OS Amerikan Gold"
+                    android:textColor="#FFD904"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    />
+            </TableRow>
+            <Button
+                android:text="Beli"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnOppo"
+                android:backgroundTint="#2A5AE1"
+                android:textColor="#FFD904"
+                android:textStyle="bold"
+                android:textSize="20dp"/>
+            <TableRow>
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/ip11"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="> Iphone 11 Pro
+                                    \n\n > ASUS \n\n > Harga : Rp.17,000,000
+                                    \n \n > OS Snapdragon"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="#FFD904"
+                    />
+            </TableRow>
+            <Button
+                android:text="Beli"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnIphone"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:backgroundTint="#2A5AE1"
+                android:textColor="#FFD904"
+                android:textStyle="bold"
+                android:textSize="20dp"                />
+            <TableRow>
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/blackshark"
+                    />
+
+                <TextView
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="> Xiaomi Black Shark
+                                    \n\n> ASUS
+                                    \n\n> Harga : 3,500,000
+                                    \n\n> OS Kali Merah"
+                    android:textColor="#FFD904"/>
+            </TableRow>
+            <Button
+                android:backgroundTint="#2A5AE1"
+                android:textColor="#FFD904"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:text="Beli"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnBlackshark"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                />
+
+            <TableRow>
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:src="@drawable/s20"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="> Samsung S20
+                                    \n\n> ASUS
+                                    \n\n> Harga: 15,000,000
+                                    \n\n> OS : Oreo"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:textColor="#FFD904"/>
+            </TableRow>
+
+            <Button
+                android:backgroundTint="#2A5AE1"
+                android:textColor="#FFD904"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:id="@+id/btnSamsung"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:text="Beli" />
+
+        </TableLayout>
+
+    </ScrollView>
+</LinearLayout>
+
+
+
+

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1"
+        android:paddingTop="10dp">
+        <TableRow>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Form Registrasi"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textColor="#FFD904"
+            android:textStyle="bold"  />
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Lengkap"
+                android:textColor="#FFD904"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                />
+
+            <EditText
+                android:id="@+id/etNmle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#2A5AE1"
+                android:backgroundTint="#2A5AE1"
+                android:layout_marginLeft="20dp"
+                android:textColorHint="#2A5AE1"
+                android:hint="Mamat sudi"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textColor="#FFD904"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                />
+
+            <EditText
+                android:id="@+id/etEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#2A5AE1"
+                android:backgroundTint="#2A5AE1"
+                android:layout_marginLeft="20dp"
+                android:textColorHint="#2A5AE1"
+                android:hint="Mamad666@gmail.com"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username"
+                android:textColor="#FFD904"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                />
+
+            <EditText
+                android:id="@+id/etUsr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#2A5AE1"
+                android:backgroundTint="#2A5AE1"
+                android:layout_marginLeft="20dp"
+                android:textColorHint="#2A5AE1"
+                android:hint="Username : admin"/>
+        </TableRow>
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:textColor="#FFD904"
+                android:textSize="20dp"
+                android:textStyle="bold"    />
+            <EditText
+                android:id="@+id/etPw"
+                android:inputType="textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColorHint="#2A5AE1"
+                android:hint="password :1234"
+                android:textColor="#2A5AE1"
+                android:backgroundTint="#2A5AE1"
+                android:layout_marginLeft="20dp" />
+        </TableRow>
+        <Button
+            android:text="Register"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#2A5AE1"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:id="@+id/btnRegister"
+            />
+    </TableLayout>
+
+    </LinearLayout>
+</LinearLayout>

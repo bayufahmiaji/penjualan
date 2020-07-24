@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFD904"
+    tools:context=".MainActivity">
+
+    <!--didiyeu codingna koko-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="16dp"
+        android:orientation="vertical">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1"
+            android:paddingTop="10dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Selamat Datang Di Aplikasi Friend Source"
+                    android:textColor="#2A5AE1"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btncara"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="Cara Pesan"
+                android:color="#786812"
+                android:textColor="#2A5AE1"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColorHint="@color/colorAccent"
+                android:backgroundTint="#000000"/>
+
+            <Button
+                android:text="Pesan"
+                android:id="@+id/btnpesan"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:textColor="#2A5AE1"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColorHint="@color/colorAccent"
+                android:backgroundTint="#000000"/>
+
+
+            <Button
+                android:text="Keluar"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="20dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/btnExit"
+                android:backgroundTint="#000000"
+                android:textColor="#2A5AE1"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColorHint="@color/colorAccent"/>
+
+
+    </LinearLayout>
+</LinearLayout>
